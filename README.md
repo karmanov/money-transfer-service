@@ -39,7 +39,9 @@ Need to implement logic to aggregate constrains.
 * Improve test coverage. Current coverage is 78%. Coverage report could be generated with following command:
 ```./mvnw clean verify```. Report will be located under ```target/site/jacoco/index.html```
 
-*
+* Improve API error responses
+* Add currencies support
+ 
 
 ## Packaging and run the application
 The application is packaged using ```./mvnw package ```. It produces executable jar file in ``` /target ```. The jar file name:  ```money-transfer-service-1.0-SNAPSHOT-runner.jar```
