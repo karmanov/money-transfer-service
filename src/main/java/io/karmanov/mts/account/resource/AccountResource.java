@@ -5,7 +5,6 @@ import io.karmanov.mts.account.service.AccountService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.inject.Inject;
 import javax.persistence.EntityNotFoundException;
 import javax.ws.rs.*;
 import javax.ws.rs.core.GenericEntity;

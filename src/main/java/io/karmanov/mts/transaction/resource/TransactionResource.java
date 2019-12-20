@@ -36,8 +36,8 @@ public class TransactionResource {
     }
 
     @POST
-    public Response crete(TransactionRequest transactionRequest,
-                          @DefaultValue("0") @QueryParam("delay") Long delay) {
+    public Response create(TransactionRequest transactionRequest,
+                           @DefaultValue("0") @QueryParam("delay") Long delay) {
         try {
             Transaction transaction = transactionCreationDelegate.executeTransaction(transactionRequest, delay);
             return Response.status(Response.Status.CREATED).entity(transaction).build();
